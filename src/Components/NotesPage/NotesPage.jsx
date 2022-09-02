@@ -21,6 +21,7 @@ function NotesPage(props) {
                let sendNotesAction = props.sendNotesCreatetor(noteRef.current.value);
                props.distpatch(sendNotesAction);
                console.log(sendNotesAction);
+               console.log(noteRef.current.value);
           }
           noteRef.current.value = '';
           props.renderReactDom(props.getState(), props.sendNotesCreatetor, props.distpatch)
