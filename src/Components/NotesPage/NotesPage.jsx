@@ -22,7 +22,7 @@ function NotesPage(props) {
                props.distpatch(sendNotesAction);
                console.log(sendNotesAction);
                console.log(noteRef.current.value);
-               console.log('hghghgh');
+               console.log('hghппр');
           }
           noteRef.current.value = '';
           props.renderReactDom(props.getState(), props.sendNotesCreatetor, props.distpatch)
